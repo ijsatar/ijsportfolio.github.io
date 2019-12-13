@@ -23,6 +23,8 @@
     <!-- Theme CSS - Includes Bootstrap -->
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/timeline.css" rel="stylesheet">  
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+
     
 </head>
 
@@ -185,7 +187,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline">
-                        <a class="timeline">
+                        <a class="wow bounceInDown timeline">
                             <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                             <div class="timeline-content">
                                 <h3 class="title">Innovation Analyst at IBM UK Ltd </h3>
@@ -195,7 +197,7 @@ design & implementation of an IBM practitioner database, connected to a mobile &
                                 </p>
                             </div>
                         </a>
-                        <a class="timeline">
+                        <a class="wow slideInLeft timeline">
                             <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                             <div class="timeline-content">
                                 <h3 class="title">DATA ENTRY CLERK • PETITS CHERIS UK LTD </h3>
@@ -206,7 +208,7 @@ o	Recording stock items and maintaining price lists in an in-house built excel i
                                 </p>
                             </div>
                         </a>
-                        <a class="timeline">
+                        <a class="wow slideInRight timeline">
                             <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
                             <div class="timeline-content">
                                 <h3 class="title">FLEXIBLE CASUAL WORKER • ROYAL MAIL UK LTD </h3>
@@ -218,7 +220,7 @@ o	Recording stock items and maintaining price lists in an in-house built excel i
                                 </p>
                             </div>
                         </a>
-                        <a  class="timeline">
+                        <a class="wow slideInLeft timeline">
                             <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
                             <div class="timeline-content">
                                 <h3 class="title">SOFTWARE DEVELOPMENT • DCDM CONSULTING LTD </h3>
@@ -299,7 +301,7 @@ o	Recording stock items and maintaining price lists in an in-house built excel i
       <br>
       <div class="row h-100 align-items-center justify-content-center text-center">
           <a class="btn btn-primary" href="https://www.linkedin.com/in/ijavedsatar"  target="_blank">
-            <i class="fab fa-2x fa-linkedin text-white mb-2"></i></a>        
+            <i class="fab fa-2x fa-linkedin text-white mb-2 wow rubberBand soc-logo"></i></a>        
       </div> 
     </div>
   </footer>
@@ -317,3 +319,8 @@ o	Recording stock items and maintaining price lists in an in-house built excel i
     
 </body>
 </html>
+    
+<script src="WOW-master/dist/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
